@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: #950ba1;
+  display: flex;
+  justify-content: space-between;
+}
+header span {
+  color: white;
+}
+header span:nth-child(1) {
+  font-size: 20px;
+}
+.rig span {
+  font-size: 10px !important;
+}
