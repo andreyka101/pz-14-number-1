@@ -2,6 +2,7 @@ body {
   margin: 0;
 }
 header {
+  align-items: center;
   background-color: #950ba1;
   display: flex;
   justify-content: space-between;
@@ -10,8 +11,16 @@ header span {
   color: white;
 }
 header span:nth-child(1) {
-  font-size: 20px;
+  font-size: 22px;
+}
+.rig {
+  display: flex;
+  align-items: center;
+}
+.rig span:nth-child(1) {
+  border: solid 2px white;
 }
 .rig span {
-  font-size: 10px !important;
+  font-size: 16px !important;
+  padding: 8px;
 }
