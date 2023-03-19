@@ -33,13 +33,20 @@ header span:nth-child(1) {
   padding: 8px;
 }
 .pink {
-  background-color: #facfd6;
+  display: flex;
+  background-color: #fedaf4;
+  display: inline-block;
+  width: 100%;
+  color: #b02abc;
 }
 .pink p {
   display: flex;
   justify-content: center;
-  color: #b02abc;
   font-size: 30px;
   font-weight: 1000;
   margin: 10px;
+}
+.pink img {
+  width: 30cqi;
+  height: 21cqi;
 }
