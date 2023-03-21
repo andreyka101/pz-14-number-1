@@ -98,3 +98,7 @@ header span:nth-child(1) {
   font-weight: 600;
   font-size: 22px;
 }
+pink:nth-child(4) {
+  border: #b02abc;
+  color: chartreuse;
+}
