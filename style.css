@@ -7,6 +7,9 @@ header {
   background-color: #950ba1;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  padding: 5px;
 }
 header span {
   color: white;
@@ -50,6 +53,7 @@ header span:nth-child(1) {
   font-size: 30px;
   font-weight: 1000;
   margin: 10px;
+  margin-top: 70px;
 }
 .pink img {
   width: 30cqi;
