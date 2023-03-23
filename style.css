@@ -119,9 +119,5 @@ header span:nth-child(1) {
   color: white;
   background-color: #91089e;
   padding: 9px;
-  display: flex;
-  justify-content: center;
-  margin-top: 45px;
-  margin-bottom: 10px;
   border-radius: 20% 0;
 }
