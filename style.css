@@ -5,7 +5,7 @@ body {
 }
 header {
   align-items: center;
-  background-color: #950ba1;
+  background-color: #9307a0;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -29,7 +29,7 @@ header span:nth-child(1) {
   border: solid 2.7px white;
   border-left: solid 1px white;
   border-bottom: solid 1px white;
-  border-radius: 20% 0 20% 0;
+  border-radius: 20% 0;
   margin: 0 !important;
 }
 .rig span {
@@ -43,10 +43,10 @@ header span:nth-child(1) {
 }
 .pink {
   display: flex;
-  background-color: #fedaf4;
+  background-color: #fbcced;
   display: inline-block;
   width: 100%;
-  color: #b02abc;
+  color: #91089e;
 }
 .pink p:nth-child(1) {
   display: flex;
@@ -71,7 +71,7 @@ header span:nth-child(1) {
   display: inline-block;
   width: 100%;
   color: white;
-  background-color: #b02abc;
+  background-color: #91089e;
 }
 .violet p:nth-child(1) {
   display: flex;
@@ -90,7 +90,7 @@ header span:nth-child(1) {
   border: solid 2.5px white;
   border-left: solid 1px white;
   border-bottom: solid 1px white;
-  border-radius: 20% 0 20% 0;
+  border-radius: 20% 0;
   font-size: 12px;
   margin: 1cqi;
   margin-bottom: 4cqi;
@@ -105,10 +105,23 @@ header span:nth-child(1) {
 }
 .pink:nth-child(4) .vklad p {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .pink:nth-child(4) .vklad .polosa {
   display: flex;
   justify-content: center;
   width: 131px;
   border-bottom: solid 2px;
+  margin: auto;
+  margin-bottom: 7px;
+}
+.pink:nth-child(4) .vklad .butt {
+  color: white;
+  background-color: #91089e;
+  padding: 9px;
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  border-radius: 20% 0;
 }
