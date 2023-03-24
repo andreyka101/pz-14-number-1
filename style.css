@@ -119,18 +119,6 @@ header span:nth-child(1) {
   margin: auto;
   margin-bottom: 7px;
 }
-.pink:nth-child(4) .vklad .inviz {
-  display: flex;
-  justify-content: center;
-}
-.pink:nth-child(4) .vklad .butt {
-  color: white;
-  background-color: #91089e;
-  padding: 9px;
-  border-radius: 20% 0;
-  margin-top: 35px;
-  margin-bottom: 15px;
-}
 .form-floating > .form-control,
 .form-floating > .form-control-plaintext {
   background-color: #fbcced;
@@ -156,4 +144,31 @@ header span:nth-child(1) {
 .inputli {
   width: 50cqi;
   margin-bottom: 70px;
+}
+.inviz {
+  display: flex;
+  justify-content: center;
+}
+.butt {
+  color: white;
+  background-color: #91089e;
+  padding: 9px;
+  border-radius: 20% 0;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+.butt:hover {
+  background-color: #fbcced;
+  padding: 6px;
+  border: solid 3px #91089e;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #770681;
+  color: white;
+}
+footer span:nth-child(1) {
+  margin-bottom: 10px;
 }
