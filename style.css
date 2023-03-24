@@ -1,11 +1,11 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: #fedaf4;
+  background-color: #fbcced;
 }
 header {
   align-items: center;
-  background-color: #9307a0;
+  background-color: #770681;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -74,6 +74,7 @@ header span:nth-child(1) {
   background-color: #91089e;
 }
 .violet p:nth-child(1) {
+  color: #fbcced;
   display: flex;
   justify-content: center;
   font-size: 30px;
@@ -129,4 +130,30 @@ header span:nth-child(1) {
   border-radius: 20% 0;
   margin-top: 35px;
   margin-bottom: 15px;
+}
+.form-floating > .form-control,
+.form-floating > .form-control-plaintext {
+  background-color: #fbcced;
+  border: solid 4px #91089e;
+  border-radius: 20% 0;
+  margin-top: 30px;
+}
+.form-floating > .form-control-plaintext:focus,
+.form-floating > .form-control-plaintext:not(:placeholder-shown),
+.form-floating > .form-control:focus,
+.form-floating > .form-control:not(:placeholder-shown) {
+  background-color: #fbcced;
+  border: solid 4px #91089e;
+}
+.pink:nth-child(5) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pink:nth-child(5) textarea {
+  height: 110px;
+}
+.inputli {
+  width: 50cqi;
+  margin-bottom: 70px;
 }
