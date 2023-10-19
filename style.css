@@ -40,6 +40,7 @@ header span:nth-child(1) {
 .stolb {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .pink {
   display: flex;
@@ -171,4 +172,10 @@ footer {
 }
 footer span:nth-child(1) {
   margin-bottom: 10px;
+}
+@media screen and (max-width: 379px) {
+  .pink img {
+    width: 39cqi;
+    height: 29cqi;
+  }
 }
